@@ -26,6 +26,7 @@ export default function Home() {
         <Stack spacing={4}>
           <Link href='/users'> <Chip label='Go to User'></Chip></Link>
           <Link href='/title'> <Chip label='Go to Title'></Chip></Link>
+          <Link href='/tutorial'> <Chip label='Go to blog'></Chip></Link>
         </Stack>
       </Stack>
     </Box>
