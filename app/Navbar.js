@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Navbar() {
     
     return (
-        <AppBar position='static'>
+        <AppBar position='fixed'>
             <Toolbar sx={{display: 'flex',justifyContent: 'space-between',background: 'black'}} >
                 <Typography variant='h5'>
                     Next
